@@ -1,2 +1,2 @@
 # jsPractice2
-Using JavaScript made an image slider 
+Using JavaScript and jQuery made an image slider 
