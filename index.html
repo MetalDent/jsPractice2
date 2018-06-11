@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+	prac2
+</title>
+	<link id="lnkFavicon" rel="icon" type="image/png" href="images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header id="header" class="header">
+			<div class="container">
+				<div class="logoAndSearchRow cf">
+					<div class="logo"></div>
+					<div class="searchBoxWrap"></div>
+					<h1>"Title"</h1>
+				</div>
+			</div>
+		</header>
+		<nav>
+		<ul>
+			<li><a class="active" href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#blog">Blog</a></li>
+		</ul>
+		</nav>
+
+	<div class="container contentPart">
+		<section id="banner" class="banner">
+			<div class="owl-carousel owl-theme">
+			    <div class="item"><img src="images/p1.jpg"></div>
+			    <div class="item"><img src="images/p2.jpg"></div>
+			    <div class="item"><img src="images/p3.jpg"></div>
+			    <div class="item"><img src="images/p4.jpg"></div>
+			    <div class="item"><img src="images/p5.jpg"></div>
+			</div>
+		</section>
+	</div>
+
+	<footer id="footer" class="footer">
+	
+	</footer>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.owl-carousel').owlCarousel({
+		    loop:true,
+		    margin:10,
+		    nav:false,
+		    autoplay:true,
+		    autoplayHoverPause:true,
+		    autoplayTimeout:2000,
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:2
+		        },
+		        1000:{
+		            items:3
+		        }
+		    }
+		})
+	});
+	</script>
+</body>
+</html>
